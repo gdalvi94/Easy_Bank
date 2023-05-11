@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="61.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="trans_date_lbl" layoutX="95.0" layoutY="22.0" styleClass="sizing-texts" stylesheets="@../../css/ClientOptions.css" text="2023-08-11" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="22.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="sender_lbl" layoutX="249.0" layoutY="22.0" prefHeight="19.0" prefWidth="80.0" styleClass="sizing-texts" stylesheets="@../../css/ClientOptions.css" text="OOD USER">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Line endY="20.0" layoutX="348.0" layoutY="21.0" AnchorPane.bottomAnchor="19.5" AnchorPane.leftAnchor="347.5" AnchorPane.topAnchor="20.5" />
+        <Label fx:id="reciever_lbl" layoutX="367.0" layoutY="21.0" styleClass="sizing-texts" stylesheets="@../../css/ClientOptions.css" text="JAVAFx User">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="amount_lbl" layoutX="500.0" layoutY="22.0" styleClass="sizing-texts" stylesheets="@../../css/ClientOptions.css" text="2460" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="lbl_transc_icon" layoutX="5.0" layoutY="22.0" prefHeight="17.0" prefWidth="80.0" />
+    </children>
+</AnchorPane>

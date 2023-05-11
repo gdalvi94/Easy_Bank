@@ -1,0 +1,18 @@
+.btm-menu-page{
+-fx-width: 300;
+    -fx-font-size:20;
+     -fx-font-weight: bold;
+
+}
+.btn-color{
+ -fx-background-color: #89CFF0;
+  -fx-font-weight: bold;
+}
+.anchor{
+ -fx-background-color: #F6F6EB;
+}
+
+.sizing-texts{
+ -fx-font-weight: bold;
+}
+

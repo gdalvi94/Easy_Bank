@@ -1,0 +1,30 @@
+
+
+.lpage{
+-fx-background-color:#FFFFFF;
+}
+.btn{
+-fx-background-color:#89CFF0;
+
+}
+
+
+.drpdown{
+-fx-background-color:#FAFAFA;
+}
+#choice-box-popup-menu{
+-fx-background-color:#FFFFFF;
+}
+
+.ipt_box{
+-fx-font-size:1.2em;
+}
+
+.error_message{
+ -fx-text-fill:#FF0000;
+ }
+
+
+ #label-choice{
+ -fx-font-weight:400;
+ }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="anchorpane_admin_box" prefHeight="140.0" prefWidth="800.0" styleClass="btm-menu-page" stylesheets="@../../css/ClientOptions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Banking.controllers.admin.AdminOptionsController">
+   <children>
+      <Button fx:id="create_client_btn" layoutX="28.0" layoutY="70.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" styleClass="btn-color" stylesheets="@../../css/ClientOptions.css" text="Create Client" />
+      <Button fx:id="client_list_btn" layoutX="221.0" layoutY="70.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" styleClass="btn-color" stylesheets="@../../css/ClientOptions.css" text="Client List" />
+      <Button fx:id="deposit_btn" layoutX="412.0" layoutY="70.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" styleClass="btn-color" stylesheets="@../../css/ClientOptions.css" text="Deposit" />
+      <Button fx:id="logout_btn" layoutX="601.0" layoutY="70.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="170.0" styleClass="btn-color" stylesheets="@../../css/ClientOptions.css" text="Logout" />
+      <Label layoutX="344.0" layoutY="14.0" text="Easy Banking">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

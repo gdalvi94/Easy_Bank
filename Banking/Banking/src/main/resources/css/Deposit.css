@@ -1,0 +1,30 @@
+.deposit_container {
+    -fx-background-color: #EEEEEE;
+}
+
+.search_box {
+    -fx-spacing: 10;
+    -fx-border-color: #AAAAAA;
+    -fx-border-width: 0 0 1 0;
+}
+
+Text {
+    -fx-font-family: "Calibri Light";
+
+    -fx-fill: #555555;
+}
+
+TextField {
+    -fx-pref-width: 200;
+    -fx-pref-height: 35;
+    -fx-background-color: #FFFFFF;
+}
+
+Button {
+
+    -fx-pref-width: 200;
+    -fx-font-family: "Calibri Light";
+}
+
+
+

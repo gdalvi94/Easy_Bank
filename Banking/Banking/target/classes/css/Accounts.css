@@ -1,0 +1,10 @@
+
+.list-cell {
+    -fx-font-size: 16px;
+    -fx-font-family: "Arial";
+}
+
+.btn-red{
+ -fx-background-color:#c70000;
+ -fx-text-fill:#ffffff;
+}
